@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ .ask-btn {
+   border-radius: 0 5px 5px 0;
+   border-color: blue;
+   background-color: blue;
+   color: whitesmoke;
+   margin-left: -5px;
+   opacity: .7;
+ }
+
+ .ask-btn:hover {
+   opacity: 1;
+ }

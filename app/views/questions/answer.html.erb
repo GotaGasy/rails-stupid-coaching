@@ -1,0 +1,11 @@
+<div class="alert alert-light fw-light">
+  <p><strong><%= @question %></strong></p>
+  <p><em>- You</em></p>
+</div>
+
+<div class="alert alert-warning fw-light">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>- Your coach</em></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class:"text-decoration-none" %>
